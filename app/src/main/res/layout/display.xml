@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1.63"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="ID"
+            android:layout_width="70dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id"
+            android:layout_weight="0.5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="Name"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="Issue"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.63"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/issue"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:id="@+id/issue_img" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <TextView
+            android:text="Status"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.61"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:layout_weight="1.13" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:id="@+id/status_img" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+        <TextView
+            android:text="Description"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:layout_weight="3.92" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:id="@+id/description_img" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+        <TextView
+            android:text="Address"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.42"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.55"
+            android:id="@+id/address"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:id="@+id/address_img" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <TextView
+            android:text="Date Time"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.51"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_time"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <TextView
+            android:text="Uploader"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="0.55"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploaer"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/garbage"
+        android:title="Garbage"
+        />
+    <item
+        android:id="@+id/potholes"
+        android:title="Potholes"/>
+    <item
+        android:id="@+id/speed"
+        android:title="Speed Breakers"/>
+    <item
+        android:id="@+id/street"
+        android:title="Street Light Not Working"/>
+    <item
+        android:id="@+id/traffic"
+        android:title="Traffic"/>
+    <item
+        android:id="@+id/water"
+        android:title="Water Logging"/>
+    <item
+        android:id="@+id/other"
+        android:title="Other"/>
+    <item
+        android:id="@+id/none"
+        android:title="None"/>
+
+</menu>
