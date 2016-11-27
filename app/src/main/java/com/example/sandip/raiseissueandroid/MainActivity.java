@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     Integer position=Integer.valueOf(id)-1;
     String issue_numbers[] = {"Garbage", "Potholes", "Speed Breakers", "Street Light Not Working", "Traffic", "Water Logging", "Other", "None"};
     String status_numbers[] = {"Pending", "Resolved"};
-    private static String url_data = "http://raiseissue.com/img/api.php";
+    private static String url_data = "Your URL";
 
 
     @Override
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             protected Bitmap doInBackground(String... params) {
-                String add = "http://raiseissue.com/images/uploads/"+name;
+                String add = "Your URL";
                 URL url = null;
                 Bitmap image = null;
                 try {
