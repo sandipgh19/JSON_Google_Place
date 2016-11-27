@@ -37,7 +37,7 @@ public class Status_new extends AppCompatActivity {
     String id;
     Spinner element;
     Button submit;
-    String url = "http://raiseissue.com/img/updatestatus.php";
+    String url = "Your URL";
     public static final String KEY_ID = "statusid";
     public static final String KEY_STATUS= "status";
     protected void onCreate(Bundle savedInstanceState) {
