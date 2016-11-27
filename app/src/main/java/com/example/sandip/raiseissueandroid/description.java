@@ -26,7 +26,7 @@ public class description extends AppCompatActivity {
     String id;
     EditText txt;
     Button btn;
-    String url = "http://raiseissue.com/img/updatedescription.php";
+    String url = "Your URL";
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
