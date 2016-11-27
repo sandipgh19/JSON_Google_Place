@@ -33,7 +33,7 @@ public class Issue extends AppCompatActivity {
     String id;
     Spinner element;
     Button submit;
-    String url = "http://raiseissue.com/img/updateissue.php";
+    String url = "Your URL";
     public static final String KEY_ID = "issueid";
     public static final String KEY_ISSUE = "issue";
 
